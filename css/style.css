@@ -1,0 +1,39 @@
+.cf-modcategories .cf-category {
+    height: 350px;
+    position: relative;
+}
+
+/* Categories List Layout */
+.cf-modcategories-list > .cf-category {
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    display: block;
+    line-height: 20px;
+    padding: 4px;
+    transition: all 0.2s ease-in-out 0s;
+    margin-top: 5px;
+}
+
+.cf-modcategories-list .cf-category-thumbnail {
+	float: left;
+	display: block;
+	max-height: 200px;
+	max-width: 200px;
+	width: 20%; 
+}
+
+.cf-modcategories-list .cf-category-thumbnail > img {
+	margin: 0 auto;
+	display: block;
+}
+
+.cf-modcategories-list .cf-category-content {
+	float: left;
+	display: block;
+	padding-left: 5px;
+	width: 79%; 
+}
+
+.cf-modcategories-navcat-active {
+	font-weight: bold;
+}
